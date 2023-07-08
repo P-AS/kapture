@@ -1,5 +1,5 @@
 //Yeah theyre public
-let jsonKeys = '{' +
+let keyList = '{' +
 	'"keys":[' +
 		'{"deviceID":"155149BD4FAAB84", "productKey":"5NEU-VG62-LKPP-QRW4-F6QQ"},' +
 		'{"deviceID":"159B882BE677695", "productKey":"MFWG-N54F-0EP3-MFWY-BQ8Q"},' +
@@ -23,7 +23,7 @@ let jsonKeys = '{' +
 '}';
 
 //convert to JS array
-const keyList = JSON.parse(jsonKeys);
+keyList = JSON.parse(keyList);
 
 function printKey() {
 	let id = document.getElementById("idInput").value;
