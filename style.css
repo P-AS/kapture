@@ -1,0 +1,53 @@
+:root {
+	--size: 1.3vw;
+}
+
+body {
+	background-color: white;
+	color: black;
+	font-size: var(--size);
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 0.3vw;
+	margin-bottom: 0.3vw;
+}
+
+a:visited {
+	color: black;
+}
+
+a {
+	color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+		color: white;
+	}
+
+	a:visited {
+		color: white;
+	}
+
+	a {
+		color: white;
+	}
+}
+
+label {
+	font-size: 60%;
+}
+
+input {
+	font-size: var(--size);
+}
+
+button {
+	font-size: var(--size);
+}
+
+p {
+	margin-top: 0.3vw;
+	margin-bottom: 0.3vw;
+}
